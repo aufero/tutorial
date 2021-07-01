@@ -1,0 +1,19 @@
+{
+  "name": "aufero-sample-proxy",
+  "version": "1.0.0",
+  "description": "A sample proxy for getting started.",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "npm install && node proxy.js"
+  },
+  "author": "Aufero",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.1.0",
+    "ip-address": "^7.1.0",
+    "morgan": "^1.10.0"
+  }
+}
